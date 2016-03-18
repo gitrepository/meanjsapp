@@ -2,6 +2,9 @@ RTB01: Code Base
 #01 Code base setup. Starting point for MEAN App
   grunt --force
 
+RTB02: Cleanup
+#02 Removed SASS dependenct (lint)
+
 
 
 [![MEAN.JS Logo](http://meanjs.org/img/logo-small.png)](http://meanjs.org/)
