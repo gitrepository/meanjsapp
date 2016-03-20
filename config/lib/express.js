@@ -43,7 +43,8 @@ module.exports.initLocalVariables = function (app) {
     res.locals.host = req.protocol + '://' + req.hostname;
     res.locals.url = req.protocol + '://' + req.headers.host + req.originalUrl;
     next();
-  });
+  }
+				 );
 };
 
 /**

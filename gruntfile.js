@@ -312,7 +312,7 @@ module.exports = function (grunt) {
 
   // Run the project in development mode
   //Commented lint: Not depending on SASS
-  grunt.registerTask('default', ['env:dev'/*, 'lint',*/ 'mkdir:upload', 'copy:localConfig', 'concurrent:default']);
+  grunt.registerTask('default', ['env:dev', /*'lint',*/ 'mkdir:upload', 'copy:localConfig', 'concurrent:default']);
 
   // Run the project in debug mode
   grunt.registerTask('debug', ['env:dev', 'lint', 'mkdir:upload', 'copy:localConfig', 'concurrent:debug']);
